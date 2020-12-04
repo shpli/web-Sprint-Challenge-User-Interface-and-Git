@@ -49,11 +49,47 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width:100%;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+header{
+    height:60px;
+    width:100%;
+    overflow:hidden;
+}
+header img{
+    display:inline-block;
+    margin-left:355px;
+}
+header nav{
+    height:80px;
+    display:flex wrap;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-top:-21px;
+    margin-left:525px;
+    width:100%;
+    overflow:hidden;
+
+
+}
+header nav a{
+    text-decoration:none;
+    color:black;
+    padding:40px;
+    overflow:hidden;
+    width:100%;
+}
+div.banner{
+    width:100vw;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    padding:20px;
 }
 
 h1, h2, h3, h4, h5 {
