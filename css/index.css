@@ -126,18 +126,23 @@ div.about-intro{
     transition:.3s;
 }
 .top-content .text-container-about {
-    margin-top:10px;
+    margin-top:15px;
     width: 48%;
     padding-bottom: 20px;  
     justify-content:space-evenly;
-    margin-bottom:20px;
+    margin-bottom:25px;
 }
 
 .top-content .text-container-about a{
+    display:flex;
+    width:27%;
     padding: 5px;
-    border:1px solid black;
+    margin-top:20px;
+    border:3px solid black;
     text-decoration:none;
     color:black;
+    border-radius:10%;
+    font-weight:bold;
 
 }
 
@@ -145,16 +150,36 @@ div.about-intro{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-.middle-content .middle-content-about {
-    display:flex;
-    flex-wrap:wrap;
+
+.middle-content-about {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    justify-content:space-evenly;
+    flex-direction:row;
+    padding-top:10px;
+}
+
+.middle-content-about .middle-text-about {
     margin-top:10px;
     width: 48%;
     padding-bottom: 20px;  
-    justify-content:space-evenly;
     margin-bottom:20px;
-    border:1px solid black;
+    justify-content:space-evenly;
 }
+
+.middle-content-about .middle-text-about a{
+    display:flex;
+    width:27%;
+    padding: 5px;
+    margin-top:20px;
+    border:3px solid black;
+    text-decoration:none;
+    color:black;
+    border-radius:10%;
+    font-weight:bold;
+}
+
 
 .middle-content h2 {
     padding: 0 2%;
@@ -278,7 +303,10 @@ div.about-intro{
     justify-content: center;
 }
 
-
+div.bottom-content-about{
+    margin-top:30px;
+    margin-bottom:30px;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
